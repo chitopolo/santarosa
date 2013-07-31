@@ -68,17 +68,23 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<?php echo $this->element('contenido/contenido1'); ?>
 
 				<?php echo $this->Session->flash(); ?>
-				<?php echo $this->fetch('content'); ?>
+				
 			</div><!-- #header .container -->
 			
-			<div id="footer">
+			<div id="footer" >
 				<?php //Silence is golden ?>
 				<?php echo $this->element('footer/footer1'); ?>
 			</div><!-- #footer .container -->
 			
 		</div><!-- #main-container -->
 		
-		!-- .container -->
+		<div class="container">
+			<div class="well">
+				<small>
+					<?php echo $this->element('sql_dump'); ?>
+				</small>
+			</div>
+		</div><!-- .container -->
 		<?php echo $this->Js->writeBuffer(); // Write cached scripts ?>
 	</body>
 

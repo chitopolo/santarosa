@@ -7717,3 +7717,12 @@ Request URL: /santarosa/img/carusel/images.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\santarosa\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-07-31 11:54:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /santarosa/img/carusel/images.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\santarosa\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
